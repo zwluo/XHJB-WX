@@ -1,0 +1,40 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.log-item {
+  margin: 10rpx;
+}
+
+.tale-content {
+  background: #c8e8c8;
+  padding: 10px 13px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 1.8;
+  /*每行字体平均分布*/
+  text-align: justify;
+  /*阴影*/
+  box-shadow: 0 0 15px 0 #8a8a8a;
+}
+
+.ballad {
+  text-align: center;
+  font-size: 19px;
+}
+
+.stastics {
+  font-size: 17px;
+  text-align: left;
+}
+
+.hideWorker {
+  display: none;
+}
+
+.showWorker {
+  display: block;
+}

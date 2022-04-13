@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:key="timeStamp" wx:for-item="log">
+    <button data-story-type="{{type}}" data-story-id="{{log.id}}" bindtap="openStory" class="log-item">{{log.title}}</button>
+  </block>
+</view>

@@ -1,0 +1,9 @@
+.log-list {
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+button {
+  background-color: #dcdcdc;
+}
