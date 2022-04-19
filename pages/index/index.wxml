@@ -1,6 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="usermotto">
+    <image src="../image/xhjb.png" class="pic"></image>
     <button data-story-id="1" style="width:130px;" bindtap="openCatalog" class="log-item">故事</button>
     <button data-story-id="2" style="width:130px;" bindtap="openCatalog" class="log-item">歌谣</button>
     <button data-story-id="3" style="width:130px;" bindtap="openCatalog" class="log-item">谚语</button>
