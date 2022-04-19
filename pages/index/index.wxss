@@ -16,6 +16,9 @@
 
 .usermotto {
   margin-top: 40px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .log-item {
@@ -24,4 +27,10 @@
 
 button {
   background-color: #dcdcdc;
+}
+
+.pic {
+  width: 500rpx;
+  height: 170rpx;
+  margin-bottom: 80rpx;
 }
